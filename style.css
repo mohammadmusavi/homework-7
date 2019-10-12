@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    font-size: 1.5rem;
+    color: #202020;
+    padding: 0.2rem;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+}
+
+.btn {
+    padding: 0.6rem 2rem;
+    margin-left: 1rem;
+}
